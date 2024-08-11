@@ -1,0 +1,40 @@
+
+.nav-link{
+    margin-right: 20px;
+    cursor: pointer;
+
+}
+#navbar{
+    margin-bottom: 50px;
+}
+
+
+.navbar-brand{
+    margin-left: 70px;
+}
+.login{
+    display: flex;
+    justify-content: start;
+    margin: 0 20px 0 0; /* لجعل العنصر في النص */
+}
+
+@media screen and (max-width: 970px) {
+    .login {
+       display: flex;
+       justify-content: center;
+       align-items: center;
+       flex-direction: column;
+       margin-left: 10px;
+    }
+
+    .navbar-nav {
+        margin-top: 20px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        text-align: start;
+    }
+}
+/* darkmode */
+

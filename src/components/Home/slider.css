@@ -1,0 +1,139 @@
+.carousel {
+   
+    margin-bottom: 50px;
+    padding-bottom: 40px;
+    margin-top: 90px;
+}
+.carousel-inner {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    /* height: 100vh; */
+    /* background-color: #F5F7FA; */
+    padding-top: 40px;
+    margin-bottom: 50px;
+    padding-bottom: 40px;
+}
+
+.image {
+    width: 390px;
+    height: 405px;
+    margin: 0 10px;
+    border-radius: 10px;
+}
+
+.image img {
+    width: 100%;
+    height: 100%;
+    border-radius: 10px;
+}
+
+.carousel-text {
+    margin: 0 20px;
+    text-align: start;
+    color: #000;
+    line-height: 30px;
+    
+    display: flex;
+    justify-content: center;
+    align-items: start;
+    flex-direction: column;
+}
+
+.carousel-text p {
+    font-size: 18px;
+}
+
+.carousel-text h1 {
+    font-weight: bold;
+    font-size: 70px;
+}
+
+.carousel-text span {
+    color: #28cc80;
+    font-weight: bold;
+}
+
+.carousel-img img {
+    width: 100%;
+    height: 100%;
+    border-radius: 10px;
+}
+
+.carousel-indicators {
+    position: absolute;
+    bottom: 10px;
+    left: 50%;
+    transform: translateX(-50%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.carousel-indicators button {
+    background-color: #28cc80;
+    border: none;
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    margin: 0 5px;
+    opacity: 0.5;
+    transition: opacity 0.3s ease;
+}
+
+.carousel-indicators .active {
+    opacity: 1;
+}
+
+/* استعلامات الوسائط */
+@media (max-width: 768px) {
+    .carousel-inner {
+        flex-direction: column;
+        height: auto;
+        padding: 40px 0;
+    }
+
+    .image {
+        width: 100%;
+        max-width: 280px;
+        height: auto;
+        margin: 10px 0;
+        padding-top: 20px;
+    }
+
+    .carousel-text {
+        text-align: center;
+        align-items: center;
+    }
+
+    .carousel-text h1 {
+        font-size: 50px;
+    }
+
+    .carousel-text p {
+        font-size: 16px;
+    }
+}
+
+@media (max-width: 480px) {
+    .carousel-text h1 {
+        font-size: 40px;
+    }
+
+    .carousel-text p {
+        font-size: 14px;
+    }
+
+    .carousel-indicators button {
+        width: 8px;
+        height: 8px;
+    }
+}
+/* darkmode */
+body.dark-mode .carousel-inner {
+    background-color: #121212;
+}
+
+body.dark-mode .carousel-text {
+    color: #fff;
+}

@@ -1,0 +1,263 @@
+/* 
+.achievements {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 50px 20px;
+}
+
+.achievements-text {
+    margin-bottom: 40px;
+}
+
+.achievements-text h1 {
+    font-size: 36px;
+    line-height: 1.2;
+}
+
+.achievements-text span {
+    color: #00aaff;
+}
+
+.achievements-text p {
+    font-size: 18px;
+    color: #666;
+}
+
+.Counts {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.row1 {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 30px;
+}
+
+.member1, .member2 {
+    display: flex;
+    
+    align-items: center;
+    margin: 0 20px;
+}
+
+.member1 img, .member2 img {
+    width: 48px;
+    height: 48px;
+    margin-bottom: 20px;
+    margin-right: 15px;
+
+}
+
+.member1-text, .member2-text {
+    text-align: center;
+}
+
+.member1-text h1, .member2-text h1 {
+    font-size: 24px;
+    margin: 0;
+}
+
+.member1-text p, .member2-text p {
+    font-size: 16px;
+    color: #888;
+}
+
+@media (max-width: 768px) {
+    .achievements-text h1 {
+        font-size: 28px;
+    }
+
+    .achievements-text p {
+        font-size: 16px;
+    }
+
+    .row1 {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .member1, .member2 {
+        margin: 10px 0;
+    }
+
+    .member1 img, .member2 img {
+        margin-right: 0;
+        margin-bottom: 10px;
+    }
+
+    .member1-text h1, .member2-text h1 {
+        font-size: 20px;
+    }
+
+    .member1-text p, .member2-text p {
+        font-size: 14px;
+    }
+} */
+.achievements {
+    padding: 50px 20px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.achievements-text {
+    margin-bottom: 40px;
+    text-align:start;
+}
+
+.achievements-text h1 {
+    font-size: 36px;
+    line-height: 1.2;
+}
+
+.achievements-text span {
+    color:#4CAF4F ; 
+} 
+
+
+.achievements-text p {
+    font-size: 16px;
+    color: #666;
+}
+
+.Counts {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.row {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px; /* Space between rows */
+}
+
+.achievement-item {
+    display: flex; /* تعديل لعرض الصور والنص بجانب بعضهم */
+    align-items: center;
+    margin: 0 20px;
+    width: 200px; /* Adjust the width to fit your layout */
+}
+
+.achievement-item img {
+    width: 48px;
+    height: 48px;
+    margin-right: 10px; 
+    margin-bottom: 20px;}
+
+.achievement-text {
+    text-align: left; /* تعديل لجعل النص يبدأ من اليسار */
+}
+
+.achievement-text h1 {
+    font-size: 24px;
+    margin: 0;
+}
+
+.achievement-text p {
+    font-size: 16px;
+    color: #888;
+}
+
+/* Media Queries */
+@media (max-width: 768px) {
+    .achievements {
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+    .achievements-text h1 {
+        font-size: 28px;
+    }
+ .achievements-text{
+text-align: center;
+}
+    .achievements-text p {
+        font-size: 16px;
+    }
+
+    .Counts {
+        display: flex;
+        justify-content: center; /* توسيط العناصر أفقيًا */
+        align-items: center; /* توسيط العناصر عموديًا */
+        margin: 0 0 0 20px;
+    }
+
+    .row {
+        align-items: center;
+    }
+
+    .achievement-item {
+        margin: 10px 0;
+        width: 100%; /* عرض كامل للشاشة الصغيرة */
+    }
+
+    .achievement-item img {
+        width: 48px; /* حجم أصغر للصورة على الشاشات الصغيرة */
+        height: 48px;
+    }
+
+    .achievement-text h1 {
+        font-size: 20px;
+    }
+
+    .achievement-text p {
+        font-size: 14px;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 1024px) {
+    .achievements {
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+    .achievements-text{
+        text-align: center;
+    }
+    .achievements-text h1 {
+        font-size: 32px; /* تصغير حجم الخط قليلاً */
+    }
+
+    .achievements-text p {
+        font-size: 16px; /* تصغير حجم الخط للنص */
+    }
+
+    .Counts {
+        display: flex;
+        justify-content: center; /* توسيط العناصر أفقيًا */
+        align-items: center; /* توسيط العناصر عموديًا */
+        /* margin-left: 150px; */
+        margin: 0 0 0 160px;
+
+
+    }
+
+    .row {
+        justify-content: center; 
+        align-items: center;
+        margin-bottom: 20px;
+    }
+
+    .achievement-item {
+        margin: 10px 0; /* مسافة بين العناصر */
+        width: 90%; /* عرض أكبر للعناصر */
+        max-width: 400px; /* تحديد عرض أقصى */
+    }
+
+    .achievement-item img {
+        width: 48px; /* تعديل حجم الصور */
+        height: 48px;
+    }
+
+    .achievement-text h1 {
+        font-size: 22px; /* تصغير حجم النص */
+    }
+
+    .achievement-text p {
+        font-size: 14px; /* تصغير حجم النص */
+    }
+}
