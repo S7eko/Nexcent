@@ -1,0 +1,21 @@
+{
+  "files": {
+    "main.css": "/static/css/main.0a53b6f2.css",
+    "main.js": "/static/js/main.c109df15.js",
+    "static/js/453.9be1f87a.chunk.js": "/static/js/453.9be1f87a.chunk.js",
+    "static/media/Illustrationhero-page-person-standing.png": "/static/media/Illustrationhero-page-person-standing.f844377a6a3f6769acd7.png",
+    "static/media/istockphoto-1387647107-612x612.jpg": "/static/media/istockphoto-1387647107-612x612.3f679436adcd157b7536.jpg",
+    "static/media/istockphoto-1335838257-612x612.jpg": "/static/media/istockphoto-1335838257-612x612.21c3a85d6ad7f9729894.jpg",
+    "static/media/istockphoto-1298061433-612x612.jpg": "/static/media/istockphoto-1298061433-612x612.0c963e6dd06c59bba3df.jpg",
+    "static/media/user smart phone.png": "/static/media/user smart phone.1e4f6643a116d8e2eaf0.png",
+    "static/media/login-mobile.png": "/static/media/login-mobile.6a3ada3dcd3abe9716d8.png",
+    "index.html": "/index.html",
+    "main.0a53b6f2.css.map": "/static/css/main.0a53b6f2.css.map",
+    "main.c109df15.js.map": "/static/js/main.c109df15.js.map",
+    "453.9be1f87a.chunk.js.map": "/static/js/453.9be1f87a.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.0a53b6f2.css",
+    "static/js/main.c109df15.js"
+  ]
+}
